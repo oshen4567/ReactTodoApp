@@ -15,6 +15,9 @@ export default function App() {
     localStorage.setItem("ITEMS", JSON.stringify(todos))
   }, [todos])
 
+
+
+  
   function addTodo(title) {
     setTodos(currentTodos => {
       return [
